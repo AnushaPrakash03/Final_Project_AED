@@ -2,30 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsurancePolicyPlannerRole/InsurancePolicyPlannerWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceFinanceRole/InsuranceFinanceWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/DoctorRole/ProvidePrescriptionJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/DoctorRole/RequestLabTestJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceFinanceRole/InsuranceFinanceProcessRequest.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceAgentRole/InsuranceAgentWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/AdministrativeRole/ManageUserAccountJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/AdministrativeRole/RequestFundsJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/DoctorRole/DoctorWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/GovernmentSecretaryRole/SecretaryWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/DoctorRole/RequestBillingJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceAgentRole/AllInsuranceRequestsJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/AdministrativeRole/EnterpriseAdminWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/DoctorRole/ViewPatientJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/PatientRole/PatientWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/LabAssistantRole/LabAssistantWorkAreaJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceAgentRole/AddNewPolicyHolderJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/InsuranceAgentRole/ProcessRequestJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/AdministrativeRole/ManageOrganizationJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/GovernmentSecretaryRole/SecretaryProcessWorkRequestJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/MainJFrame.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/AdministrativeRole/ManageEmployeeJPanel.java</file>
-            <file>file:/Users/anushaprakash/Downloads/Integrated-Hospital-Management-System-INFO5100-AED-main/src/userinterface/LabAssistantRole/ProcessWorkRequestJPanel.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
