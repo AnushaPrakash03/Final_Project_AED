@@ -19,16 +19,20 @@ public abstract class Organization {
     private UserAccountDirectory userAccountDirectory;
     private int organizationID;
     private static int counter = 0;
+    //private String type; // New type field to store the subclass name
+
     
 
     public enum Type {
 
         //HealthCenter Organization Types:
-        Admin("Admin Organization"), Doctor("Doctor Organization"), Lab("Lab Organization"), Patient("Patient Organization"), Accountant("Accountant Organization"),
+        Admin("Admin Organization"), Doctor("Doctor Organization"),Nurse("Nurse Organization"), Lab("Lab Organization"), Patient("Patient Organization"), Accountant("Accountant Organization"),
         //Insurance Organization Types:
         InsuranceAgent("Insurance Agent Organization"), PolicyPlanner("Insurance Policy Planning Organization"), InsuranceFundOrganization("Insurance Finance Organization"),
         //Government Organization Types
-        GovernmentAccountant("Treasurer Organization"), GovernmentSecretary("Secretary Organization"), HealthcareChief("Healthcare Officer Organization");
+        GovernmentAccountant("Treasurer Organization"), GovernmentSecretary("Secretary Organization"), HealthcareChief("Healthcare Officer Organization"),
+        //Pharmacist Organization Types:
+        Pharmacy("Pharmacy Organization");
         
 
         private String value;
@@ -44,6 +48,7 @@ public abstract class Organization {
 
     public Organization(String name) {
         this.organizationName = name;
+        //this.type = this.getClass().getSimpleName(); // Automatically set type to the subclass name
         workQueue = new WorkQueue();
         employeeDirectory = new EmployeeDirectory();
         userAccountDirectory = new UserAccountDirectory();
@@ -81,6 +86,11 @@ public abstract class Organization {
         this.workQueue = workQueue;
     }
 
+//    public String getType() {
+//        return type; // Getter for the type field
+//    }
+//    
+    
     @Override
     public String toString() {
         return organizationName;

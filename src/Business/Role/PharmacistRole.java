@@ -15,7 +15,7 @@ import userinterface.pharmacist.PharmacistRequestAssignmentJPanel;
 
 /**
  *
- * @author Diya
+ * @author LENOVO
  */
 public class PharmacistRole extends Role {
     

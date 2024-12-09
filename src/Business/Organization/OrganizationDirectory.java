@@ -7,6 +7,7 @@ package Business.Organization;
 import Business.Organization.Organization.Type;
 import java.util.ArrayList;
 import static Business.Organization.Organization.Type.InsuranceFundOrganization;
+import java.util.List;
 
 
 public class OrganizationDirectory {
@@ -17,8 +18,15 @@ public class OrganizationDirectory {
         organizationList = new ArrayList();
     }
 
+    public List<Organization> getOrganizationList() {
+        return organizationList;
+    }
     public ArrayList<Organization> getOrganizations() {
         return organizationList;
+    }
+    
+    public void addOrganization(Organization organization) {
+        organizationList.add(organization);
     }
     
     public Organization createOrganization(Type type){
@@ -31,6 +39,10 @@ public class OrganizationDirectory {
         }
         else if (type.getValue().equals(Type.Lab.getValue())){
             organization = new LabOrganization();
+            organizationList.add(organization);
+        }
+          else if (type.getValue().equals(Type.Nurse.getValue())){
+            organization = new NurseOrganization();
             organizationList.add(organization);
         }
         
@@ -47,6 +59,13 @@ public class OrganizationDirectory {
             organizationList.add(organization);
                     
         }
+         else if(type.getValue().equals(Type.Pharmacy.getValue()))
+        {
+            organization = new PharmacyOrganization();
+            organizationList.add(organization);
+                    
+        }
+        
         
         //Adding Government Organizations
         
@@ -89,9 +108,6 @@ public class OrganizationDirectory {
             organizationList.add(organization);
                     
         }
-        
-        
-
        
         return organization;
     }

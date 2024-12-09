@@ -11,12 +11,20 @@ import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
 
 public abstract class Role {
+    
+    private String type; // Add a type field to store the subclass name
+
+    public Role() {
+        this.type = this.getClass().getSimpleName(); // Automatically set the type field to the subclass name
+    }
 
     public enum RoleType {
         Admin("Admin"),
-        Doctor("Doctor"),
+        RadiologistDoctor("RadiologistDoctor"),
+        OncologistDoctor("OncologistDocotr"),
         LabAssistant("Lab Assistant"),
         Patient("Patient"),
+        Pharmacist("Pharmacist"),
         Accountant("Accountant"),
         InsuranceAgent("Insurance Agent"),
         InsurancePlanner("Insurance Policy Planner"),
@@ -46,10 +54,14 @@ public abstract class Role {
             Organization organization,
             Enterprise enterprise,
             EcoSystem ecosystem);
+    
+    public String getType() {
+        return type; // Getter for the type field
+    }
 
     @Override
     public String toString() {
-        return this.getClass().getName();
+        return this.getClass().getSimpleName();
     }
 
 }

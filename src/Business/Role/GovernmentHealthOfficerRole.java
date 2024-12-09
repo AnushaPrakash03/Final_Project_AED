@@ -16,7 +16,7 @@ import userinterface.HealthcareOfficerRole.OfficerWorkAreaJPanel;
 
 /**
  *
- * @author anushaprakash
+ * @author Dell
  */
 
 public class GovernmentHealthOfficerRole extends Role{

@@ -14,7 +14,7 @@ import userinterface.DoctorRole.DoctorWorkAreaJPanel;
 
 /**
  *
- * @author rutugawad
+ * @author LENOVO
  */
 public class RadiologistDoctorRole extends Role {
      @Override

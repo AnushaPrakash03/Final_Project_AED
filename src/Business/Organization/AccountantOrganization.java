@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Dell
+ * @author Diya
  */
 public class AccountantOrganization extends Organization {
 

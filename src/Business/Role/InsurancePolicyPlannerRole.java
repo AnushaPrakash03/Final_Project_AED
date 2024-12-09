@@ -16,7 +16,7 @@ import userinterface.InsurancePolicyPlannerRole.InsurancePolicyPlannerWorkAreaJP
 
 /**
  *
- * @author rutugawad
+ * @author Dell
  */
 public class InsurancePolicyPlannerRole extends Role{
 

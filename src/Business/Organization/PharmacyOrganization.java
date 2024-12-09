@@ -6,16 +6,29 @@ package Business.Organization;
 
 import Business.Role.PharmacistRole;
 import Business.Role.Role;
+import Business.WorkQueue.PharmacyWorkRequest;
+import Business.WorkQueue.WorkQueue;
 
 
 import java.util.ArrayList;
+import java.util.List;
 /**
  *
- * @author LENOVO
+ * @author Diya
  */
 public class PharmacyOrganization extends Organization {
-    public PharmacyOrganization() {
-        super(Type.Pharmacy.getValue());
+     public PharmacyOrganization() {
+        super(Type.Pharmacy.getValue()); // Initialize with the correct type
+    }
+
+    // This method is fine as it calls the inherited getWorkQueue from Organization
+    public WorkQueue getWorkQueue() {
+        return super.getWorkQueue(); // Access workQueue from the parent class
+    }
+
+    // Method to get all pharmacy work requests
+    public List<PharmacyWorkRequest> getPharmacyWorkRequests() {
+        return super.getWorkQueue().getPharmacyWorkRequests();  // Call method from WorkQueue
     }
 
     @Override
