@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Dell
+ * @author Diya
  */
 public class EnterpriseDirectory {
     private ArrayList<Enterprise> enterpriseList;
@@ -50,6 +50,14 @@ public class EnterpriseDirectory {
             
             
         }
+         else if(type == Enterprise.EnterpriseType.Pharmacy)
+        {
+            enterprise = new PharmacyEnterprise(name);
+            enterpriseList.add(enterprise);
+            
+            
+        }
+        
         return enterprise;
     }
 }

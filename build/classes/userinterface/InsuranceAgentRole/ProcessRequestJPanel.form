@@ -26,13 +26,13 @@
     <Component class="javax.swing.JLabel" name="lblPolicyNumber">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Policy Number :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="169" y="98" width="120" height="-1"/>
+          <AbsoluteConstraints x="149" y="98" width="140" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -52,13 +52,13 @@
     <Component class="javax.swing.JLabel" name="lblClaimAmount">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Claim Amount :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="170" y="210" width="-1" height="-1"/>
+          <AbsoluteConstraints x="148" y="210" width="120" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -78,13 +78,13 @@
     <Component class="javax.swing.JLabel" name="lblMassage">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Message :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="200" y="250" width="70" height="-1"/>
+          <AbsoluteConstraints x="180" y="250" width="90" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -100,11 +100,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnAccept">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="0" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Route To Finance Department"/>
       </Properties>
@@ -119,11 +116,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnReject">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="0" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Reject"/>
       </Properties>
@@ -139,13 +133,13 @@
     <Component class="javax.swing.JLabel" name="lblCustomerName">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Customer Name :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="163" y="136" width="120" height="-1"/>
+          <AbsoluteConstraints x="143" y="136" width="140" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -165,13 +159,13 @@
     <Component class="javax.swing.JLabel" name="lblTotalBill">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="12" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Total Bill Amount :"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="130" y="170" width="140" height="-1"/>
+          <AbsoluteConstraints x="110" y="170" width="160" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -190,11 +184,8 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnBack">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="0" type="rgb"/>
-        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="11" style="1"/>
+          <Font name="Courier New" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
       </Properties>
@@ -203,23 +194,32 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="10" y="11" width="-1" height="25"/>
+          <AbsoluteConstraints x="10" y="11" width="100" height="25"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Monospaced" size="18" style="1"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="0" red="99" type="rgb"/>
+          <Font name="Courier New" size="18" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="FINANCE DEPARTMENT APPROVAL PANEL"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="210" y="20" width="380" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Images/insuranceFinance.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="2" y="7" width="740" height="490"/>
         </Constraint>
       </Constraints>
     </Component>

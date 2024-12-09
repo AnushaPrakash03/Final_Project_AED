@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author Dell
+ * @author Diya
  */
 public class GovernmentEnterprise extends Enterprise {
 

@@ -11,13 +11,16 @@ import java.util.List;
 
 /**
  *
- * @author Dell
+ * @author Diya
  */
 public abstract class Enterprise extends Organization {
 
     private EnterpriseType enterpriseType;
     private OrganizationDirectory organizationDirectory;
-
+    
+     private String type; // Discriminator field for Gson
+     
+ 
     public OrganizationDirectory getOrganizationDirectory() {
         return organizationDirectory;
     }
@@ -27,7 +30,9 @@ public abstract class Enterprise extends Organization {
 
         HealthcareCenter("HealthcareCenter"),
         InsuranceCompany("InsuranceCompany"),
-        GovernmentAid("GovernmentAid");
+        GovernmentAid("GovernmentAid"),
+        Pharmacy("Pharmacy");
+        
 
         private String value;
 
@@ -59,7 +64,13 @@ public abstract class Enterprise extends Organization {
         super(name);
         this.enterpriseType = type;
         organizationDirectory = new OrganizationDirectory();
+        this.type = this.getClass().getSimpleName(); // Automatically set type to the subclass name
+
     }
 
+    public String getType() {
+        return type;
+    }
+    
     public abstract List<Organization.Type> getOrganizationTypes();
 }

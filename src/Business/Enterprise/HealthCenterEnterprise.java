@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  *
- * @author Dell
+ * @author Diya
  */
 
 public class HealthCenterEnterprise extends Enterprise {
@@ -24,6 +24,7 @@ public class HealthCenterEnterprise extends Enterprise {
         super(EnterpriseType.HealthcareCenter, name);
         patientDirectory = new PatientDirectory();
     }
+    
 
     @Override
     public ArrayList<Role> getSupportedRole() {
@@ -36,6 +37,8 @@ public class HealthCenterEnterprise extends Enterprise {
         orgTypes.add(Organization.Type.Lab);
         orgTypes.add(Organization.Type.Patient);
         orgTypes.add(Organization.Type.Accountant);
+        orgTypes.add(Organization.Type.Nurse);
+        
 
         return orgTypes;
 
